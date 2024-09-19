@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
       vscode.window.showErrorMessage('No active editor!');
       return;
     }
-
+      
     const selection = editor.selection;
     const text = editor.document.getText(selection);
 
